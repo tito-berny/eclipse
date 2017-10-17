@@ -50,7 +50,7 @@ public class empleado {
 		this.seccio = seccio;
 		this.sou = sou;
 		
-		GregorianCalendar calendario = new GregorianCalendar(any, mes - 1, dia);
+		GregorianCalendar calendario = new GregorianCalendar(any, mes, dia);
 		
 		
 		this.altaContrato = calendario.getTime();

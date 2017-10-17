@@ -30,11 +30,8 @@ public class principal {
 	
 		empleado empleado3 = new empleado( "7896945H", "Manolo", "Perez", "Comercial", 432, 2017, 10, 10);
 		
-		System.out.println("Empleat "+ empleado3.getNom() +" "+ empleado1.getSou() + " " + empleado3.altaContrato.toString());
+		System.out.println("Empleat "+ empleado3.getNom() +" "+ empleado1.getSou() + empleado3.altaContrato);
 		
 	}
 
-
-	// La clase Arrays tiene un metodo llamado sort (oblica a implementar una interface) implementa interfaz Compareto.
-	//Buscar informacion Pildoras Informaticas. 
 }

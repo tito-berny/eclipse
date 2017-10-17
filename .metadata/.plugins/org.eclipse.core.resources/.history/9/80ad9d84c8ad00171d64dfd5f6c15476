@@ -1,8 +1,5 @@
 package clases;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
-
 public class empleado {
 
 	/**
@@ -14,7 +11,6 @@ public class empleado {
 	protected String cognom;
 	protected String seccio;
 	protected double sou;
-	protected Date altaContrato;
 
 	public empleado() {
 	}
@@ -26,8 +22,6 @@ public class empleado {
 		this.sou = sou;
 
 		this.seccio = "administracio";
-		
-		
 	}
 
 	public empleado(String dni, String nom, String cognom, String seccio, double sou){
@@ -37,28 +31,8 @@ public class empleado {
 		this.seccio = seccio;
 		this.sou = sou;
 	}
-	
-	
 
 	
-	public empleado(String dni, String nom, String cognom, String seccio,
-			double sou, int any, int mes, int dia) {
-	
-		this.dni = dni;
-		this.nom = nom;
-		this.cognom = cognom;
-		this.seccio = seccio;
-		this.sou = sou;
-		
-		GregorianCalendar calendario = new GregorianCalendar(any, mes - 1, dia);
-		
-		
-		this.altaContrato = calendario.getTime();
-		
-	}
-	
-	
-
 	public double getSou() {
 		return sou;
 	}
