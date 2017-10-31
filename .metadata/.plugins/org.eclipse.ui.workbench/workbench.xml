@@ -38,15 +38,15 @@
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="empleado.java" partName="empleado.java" path="/home/infot/Escriptori/eclipse/primeros pasos/src/clases/empleado.java" title="empleado.java" tooltip="primeros pasos/src/clases/empleado.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeros pasos/src/clases/empleado.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="975" selectionTopPixel="698"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="304" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="principal.java" partName="principal.java" path="/home/infot/Escriptori/eclipse/primeros pasos/src/clases/principal.java" title="principal.java" tooltip="primeros pasos/src/clases/principal.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeros pasos/src/clases/principal.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1193" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="629" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="jefe.java" partName="jefe.java" path="/home/infot/Escriptori/eclipse/primeros pasos/src/clases/jefe.java" title="jefe.java" tooltip="primeros pasos/src/clases/jefe.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeros pasos/src/clases/jefe.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="498" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -82,9 +82,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (3 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="365" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -116,7 +113,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -295,94 +292,66 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/principal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/gefe.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/jefe.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/empleado.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/jefe.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/empleado.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeros pasos/src/clases/jefe.java"/>
 </editors>
+<item historyLabel="empleado.java" index="1">
+<position info="not_deleted" x="1664" y="0"/>
+</item>
 <item historyLabel="principal.java" index="0">
-<position info="not_deleted" x="523" y="0"/>
-</item>
-<item historyLabel="gefe.java" index="1">
-<position/>
-</item>
-<item historyLabel="gefe.java" index="1">
-<position/>
-</item>
-<item historyLabel="gefe.java" index="1">
-<position/>
-</item>
-<item historyLabel="gefe.java" index="1">
-<position/>
+<position info="not_deleted" x="577" y="0"/>
 </item>
 <item historyLabel="jefe.java" index="2">
-<position info="not_deleted" x="30" y="4"/>
-</item>
-<item historyLabel="principal.java" index="0">
-<position info="not_deleted" x="523" y="0"/>
-</item>
-<item historyLabel="jefe.java" index="3">
-<position info="not_deleted" x="30" y="4"/>
-</item>
-<item historyLabel="principal.java" index="0">
-<position info="not_deleted" x="523" y="0"/>
-</item>
-<item historyLabel="empleado.java" index="4">
-<position info="not_deleted" x="1664" y="0"/>
-</item>
-<item historyLabel="principal.java" index="0">
-<position info="not_deleted" x="577" y="0"/>
-</item>
-<item historyLabel="jefe.java" index="5">
 <position info="not_deleted" x="500" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="1664" y="0"/>
 </item>
-<item historyLabel="jefe.java" index="5">
+<item historyLabel="jefe.java" index="2">
 <position info="not_deleted" x="500" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="237" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="577" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="jefe.java" index="5">
+<item historyLabel="jefe.java" index="2">
 <position info="not_deleted" x="379" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="986" y="0"/>
 </item>
-<item historyLabel="jefe.java" index="5">
+<item historyLabel="jefe.java" index="2">
 <position info="not_deleted" x="379" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="986" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="847" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="1002" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="1044" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="975" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="975" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
@@ -415,7 +384,7 @@
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="859" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="975" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
@@ -424,7 +393,7 @@
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="1194" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="981" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
@@ -433,20 +402,47 @@
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="974" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="923" y="0"/>
 </item>
 <item historyLabel="principal.java" index="0">
 <position info="not_deleted" x="1020" y="0"/>
 </item>
-<item historyLabel="empleado.java" index="4">
+<item historyLabel="empleado.java" index="1">
 <position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="principal.java" index="0">
+<position info="not_deleted" x="1193" y="0"/>
+</item>
+<item historyLabel="empleado.java" index="3">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="jefe.java" index="4">
+<position info="not_deleted" x="379" y="0"/>
+</item>
+<item historyLabel="principal.java" index="0">
+<position info="not_deleted" x="1193" y="0"/>
+</item>
+<item historyLabel="empleado.java" index="3">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="jefe.java" index="4">
+<position info="not_deleted" x="379" y="0"/>
+</item>
+<item historyLabel="empleado.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="jefe.java" index="4">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="empleado.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
 </item>
 <item active="true" historyLabel="principal.java" index="0">
 <position info="not_deleted" x="1193" y="0"/>
@@ -457,14 +453,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
