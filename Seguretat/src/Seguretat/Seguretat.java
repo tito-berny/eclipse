@@ -1,6 +1,7 @@
 package Seguretat;
 
 import java.lang.reflect.Array;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class Seguretat {
@@ -10,12 +11,15 @@ public class Seguretat {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		//VARIABLES
+		
 		int num ;
+		
 		String frase = "";
 		String fraseencriptada = "";
-		String abc = " abcdefghijklmnÃ±opqrstuvwyz";
-		
+		String desencriptar = "";
+		String abc = "abcdefghijklmnñopqrstuvwyz";
 		
 		Scanner scn = new Scanner(System.in);
 		
@@ -26,7 +30,7 @@ public class Seguretat {
 		System.out.println("");
 		System.out.println("Dona'm un numero de cifrat");
 		num = scn.nextInt();
-		
+				
 		System.out.println("Dona'm una frase a cifrar");
 		frase = scn.next();
 		
@@ -34,8 +38,7 @@ public class Seguretat {
 		frase = frase.toLowerCase();
 		
 		char arrayfrase[] = frase.toCharArray();
-		char abecedario[] = abc.toCharArray();
-		
+		char abecedario[] = abc.toCharArray();	
 		
 		for(int i=0;i<arrayfrase.length;i++){
 			
@@ -43,17 +46,21 @@ public class Seguretat {
 				
 				if(arrayfrase[i] == abecedario[j]){
 					
-					j = j +num;
+					j = j + num;
+					
+					if (j>24) {
+						
+						j = j - 24;
+						
+					}
 					arrayfrase[i] = abecedario[j];
-				}
-				
-			}
+				}	
+			}	
+		}
+		
+		for(int i=0;i<arrayfrase.length;i++){
 			
 		    System.out.println("Data at ["+i+"]="+arrayfrase[i]);
-		}
-		for(int i=0;i<abecedario.length;i++){
-			
-		    System.out.println("Data at ["+i+"]="+abecedario[i]);
 		}
 		
 		System.out.println();
@@ -61,12 +68,40 @@ public class Seguretat {
 		fraseencriptada = String.valueOf(arrayfrase);
 		System.out.println("Frase encriptada : " + fraseencriptada);
 		
+		System.out.println("Vol desencriptar la frase ? ( si o no )");
+		desencriptar = scn.next();
+		
+		switch (desencriptar) {
+		case "si":
+			
+			for(int i=0;i<arrayfrase.length;i++){
+				
+				for (int j = 0; j < abecedario.length; j++) {
+					
+					if(arrayfrase[i] == abecedario[j]){
+						
+						j = j - num;
+						arrayfrase[i] = abecedario[j];
+					}	
+				}
+			}
+			break;
+
+		case "no":
+			System.exit(0);
+			break;
+			
+		default:
+			
+			break;
+		}
+				
+				
+		fraseencriptada = String.valueOf(arrayfrase);
+			
 		System.out.println();
-		System.out.println(frase);
+		System.out.println("Frase desencriptada : " + fraseencriptada);
+	
 		
-		
-		
-
 	}
-
 }
