@@ -1,0 +1,9 @@
+!SESSION 2017-11-14 16:01:22.713 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-14 16:01:27.698
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

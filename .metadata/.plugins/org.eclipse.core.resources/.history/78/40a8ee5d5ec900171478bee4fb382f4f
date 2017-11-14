@@ -1,0 +1,40 @@
+package Principal;
+
+import java.util.Scanner;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Variables
+		boolean num = false;
+		int clau;
+		
+		Scanner scn = new Scanner(System.in);
+		
+		//Programa
+		
+		try {
+			
+			while (!num) {
+				
+				System.out.println("Dona'm el numero clau (0 - 99) :");
+				clau =+ Integer.parseInt(scn.nextLine());
+				
+			}
+				
+		} catch (NumberFormatException e) {
+			System.out.println("nomes numeros de 0 a 99 !");
+		}
+		num = true;
+		
+		
+		System.out.println("clau");
+
+	}
+
+}
